@@ -14,4 +14,5 @@ RUN apt-get update -y && \
 
  EXPOSE 9000
 
+
  CMD ["php7-fpm.0"]
